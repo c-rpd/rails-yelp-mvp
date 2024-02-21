@@ -8,3 +8,9 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 Restaurant.destroy_all
+
+restaurant = Restaurant.create!(name: "La cigalle", address: "nantes", category: "french")
+restaurant = Restaurant.create!(name: "Mcdo", address: "Le Bignon", category: "chinese")
+restaurant = Restaurant.create!(name: "Burger King", address: "Basse-Goulaine", category: "italian")
+restaurant = Restaurant.create!(name: "O-Tacos", address: "Angers", category: "french")
+restaurant = Restaurant.create!(name: "La locomotive", address: "Nantes", category: "french")
